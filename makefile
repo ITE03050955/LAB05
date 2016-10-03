@@ -1,6 +1,6 @@
-socket:socket.o
-	gcc socket.o -o socket
-socket.o:socket.c
-	gcc socket.c -c
+socket2:socket2.o
+	gcc socket2.o -o socket2
+socket2.o:socket2.c
+	gcc socket2.c -c
 clean:
-	rm -rf socket.o
+	rm -rf socket2.o
